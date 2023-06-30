@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleheet" href="css/styleentrarcurso.css">
+
+    <title>Reproduzir Curso</title>
+</head>
+<style>
+
+*{
+    margin:0; 
+    padding:0;
+     box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    
+}
+
+body{
+   
+}
+
+.heading{
+    color:#444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+   
+}
+
+.container .main-video{
+    background: #fff;
+    border-radius: 5px;
+    padding:10px;
+    
+}
+
+.container.main-video video{
+    width: 100%;
+    border-radius: 5px;
+  
+}
+
+.container .main-video .title{
+    color: #333;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+
+}
+
+.container .video-list{
+    background: #fff;
+    border-radius: 5px;
+    height: 520px;
+    overflow-y: scroll;
+}
+
+.container .video-list .vid video{
+    width:100px;
+    border-radius: 5px;
+}
+</style>
+
+
+<body>
+    <h3 class="heading">galeria videos</h3>
+
+    <div class="container">
+       
+            <div class="main-video">
+                <div class="video">
+                    <video src="img/video2.mp4" controls  autoplay></video>
+                    <h3 class="title">Video 1º</h3>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <div class="vid">
+                    <video src="img/video3.mp4"   muted></video>
+                    <h3 class="title">Video 2º</h3>
+                </div>
+
+                <div class="vid">
+                    <video src="img/video4.mp4"   muted></video>
+                    <h3 class="title">Video 2º</h3>
+                </div>
+
+                <div class="vid">
+                    <video src="img/video3.mp4"   muted></video>
+                    <h3 class="title">Video 2º</h3>
+                </div>
+
+            </div>
+    </div>
+   
+    

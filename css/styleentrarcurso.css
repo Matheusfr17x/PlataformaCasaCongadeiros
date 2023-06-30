@@ -1,0 +1,52 @@
+*{
+    margin:0; 
+    padding:0;
+     box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    background: #221717;
+}
+
+body{
+    background: #221717;
+}
+
+.heading{
+    color:#444;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    background: #221717;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+    background: #221717;
+}
+
+.container .main-video{
+    background: #fff;
+    border-radius: 5px;
+    padding:10px;
+    background: #221717;
+}
+
+.container.main-video video{
+    width: 100%;
+    border-radius: 5px;
+    background: #221717;
+}
+
+.container .main-video .title{
+    color: #333;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    background: #221717;
+
+}

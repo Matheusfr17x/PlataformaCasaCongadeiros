@@ -1,0 +1,30 @@
+body{
+    background-color: #ffffff;
+}
+
+.btn-pesquisar {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+h1{
+    color: #000000;
+}
+
+.cor1{
+    background-color:  hsla(0, 0%, 100%, 0.986);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.bg-creme-escuro {
+    background-color: #000000; /* ou rgb(233, 196, 106) */
+}
+
+.rodape {
+    background-color: #000000;
+    
+    height: 120px; /* Aumente o valor para ajustar o tamanho do rodapé */
+}
